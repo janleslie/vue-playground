@@ -1,0 +1,13 @@
+Thumbs.db
+.DS_Store
+
+# npm
+node_modules
+/dist
+/dist.tar.gz
+/.npm
+
+# local .env files
+.env.local
+.env.*.local
+
