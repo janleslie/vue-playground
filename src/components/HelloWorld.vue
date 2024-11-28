@@ -7,16 +7,15 @@
 </template>
 
 <script setup lang="ts">
-const store = useStore()
-const count = computed(() => store.count)
+const store = useStore();
+const count = computed(() => store.count);
 type Props = {
-  msg: string
-  optionalProp?: number
-}
-defineProps<Props>()
+  msg: string;
+  optionalProp?: number;
+};
+defineProps<Props>();
 
 const increment = () => {
-  store.increment()
-}
+  store.increment();
+};
 </script>
-
