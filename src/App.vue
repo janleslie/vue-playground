@@ -17,5 +17,14 @@ useHead({
 })
 </script>
 <template>
-  <router-view />
+  <header class="h-14 bg-neutral-200 w-full">
+
+  </header>
+  <main class="">
+    <router-view />
+  </main>
+
+  <footer class="h-14 bg-neutral-200">
+
+  </footer>
 </template>
